@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: auto;
+  font-size: 1.6rem;
+}
+
+img {
+  display: block;
+  /* max-width: 100%; */
+  object-fit: cover;
+}
+
+h1 {
+  font-weight: 100;
+  text-shadow: 2px 2px black;
+  font-family: "Merienda", cursive;
+  color: #fff;
+  font-size: 4rem;
+}
+h2,
+h3,
+h5 {
+  color: #2f4073;
+  font-family: "Merienda", cursive;
+  padding: 1rem 0;
+}
+h3 {
+  text-align: center;
+}
+
+textarea {
+  height: 30rem;
+}
+
+/*------------- nav bar ------------------*/
+
+nav {
+  background-color: #061339;
+}
+
+/* backg navbar : #061339 ; */
+
+/*--------------- Header ---------------------------*/
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("./img/background.jpg");
+  height: 17rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #b9cdff;
+  /* color: ivory; */
+}
+
+/*----------------- Milieu Section ----------------*/
+.img-car {
+  height: 50rem;
+}
+.chat_adopte {
+  background-color: rgb(210, 243, 193);
+  padding: 2rem;
+}
+.cache {
+  display: none;
+}
+
+/*---------------------- Foot-box -----------------*/
+
+.foot-box {
+  background-color: #ddd;
+  color: #061339;
+  font-size: 1.2rem;
+  padding: 0 15rem;
+  display: flex;
+}
+
+.foot-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.foot-text {
+  text-align: justify;
+}
+.foot-image {
+  text-align: center;
+
+}
+
+.foot-box img {
+  width: 30rem;
+  background-color: #7885a5;
+}
+
+.chat-change {
+  background-color: #061339;
+}
+/* classe utilisée par java si champs requis vides envoyés */
+.vide {
+  border: 1px solid red;
+}
+footer nav {
+  height: 3rem;
+}
+/*   RWD pour ce qui est pas pris en charge par Bootstrap              */
+/*   991px correspond au d2clenchement bootstrap en col-md  */
+@media screen and (max-width: 991px) {
+  /*  le carroussel est en haut en mode mobil ou ecran etroit RWD */
+  .inversible {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .foot-box {
+    padding: 0 5rem;
+  }
+
+  .
+}
