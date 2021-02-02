@@ -106,7 +106,7 @@ header {
 }
 
 .chat-change {
-  background-color: #061339;
+  background-color: #061339 !important;
 }
 /* classe utilisée par java si champs requis vides envoyés */
 .vide {
